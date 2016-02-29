@@ -16,3 +16,18 @@
   width: 595px;
   padding-left: 5px;
 }
+
+.card004 {
+  ul {
+    list-style: none;
+  }
+  li {
+    margin: 2px;
+  }
+  input[type=checkbox] {
+    margin-right: 4px;
+  }
+  p {
+    margin-left: 20px;
+  }
+}
