@@ -34,21 +34,22 @@
 
 .card005 {
     background-color: #f8f8f8;
-    width: 700px;
-    height: 460px;
+    width: 600px;
+    height: 430px;
+    margin: 20px;
 
-    section {
+    .content {
         display: block;
-        margin: 20px 20px 10px 20px;
+        margin: 20px auto 0 auto;
+        width: 550px;
+        height: auto;
     }
-    p {
-        display: block;
-        margin-bottom: 10px;
+    .content--figure__caption {
+        margin-bottom: 0;
     }
-    footer {
+    .content__footer {
         float: right;
         font-size: 0.7em;
-   /* margin-right: 20px;
-    margin-top: -20px;*/
-  }
+        margin-top: -20px;
+    }
 }
