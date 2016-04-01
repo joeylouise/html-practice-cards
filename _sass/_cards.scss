@@ -125,3 +125,31 @@
       }
     }
 }
+
+.card008 {
+  margin: 30px 0 30px 30px;
+
+  .definition {
+    font-size: 30px;
+  }
+
+  .definition--word {
+    font-style: italic;
+    padding: 10px 0 10px 0;
+  }
+
+  .definition--list__title {
+    float: left;
+    font-weight: bold;
+    padding: 0 10px 10px 24px;
+  }
+
+  .definition--list__item {
+    padding: 0 0 5px 0;
+    width: 650px;
+  }
+
+  p {
+    margin-bottom: 0px;
+  }
+}
